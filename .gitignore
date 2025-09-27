@@ -326,6 +326,9 @@ medium_draft_*.md
 PRP Template.docx
 *.docx
 
+# Windows batch files (local development utilities)
+*.bat
+
 # Screenshots for documentation (keep final ones, ignore drafts)
 screenshots/draft_*
 screenshots/temp_*
