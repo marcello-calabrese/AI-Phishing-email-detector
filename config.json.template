@@ -1,0 +1,26 @@
+# Configuration file - DO NOT COMMIT TO VERSION CONTROL
+# Copy this file to config.json and add your actual values
+
+{
+  "openai_api_key": "your-openai-api-key-here",
+  "confidence_thresholds": {
+    "low": 30,
+    "medium": 60,
+    "high": 80
+  },
+  "report_settings": {
+    "default_format": "pdf",
+    "include_technical_details": true,
+    "company_name": "Your Organization"
+  },
+  "ai_settings": {
+    "model": "gpt-4o-mini",
+    "temperature": 0.1,
+    "max_tokens": 2000
+  },
+  "security_api_keys": {
+    "virustotal_api_key": "your-virustotal-api-key-here",
+    "abuseipdb_api_key": "your-abuseipdb-api-key-here",
+    "security_analysis_enabled": true
+  }
+}

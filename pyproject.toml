@@ -1,0 +1,19 @@
+[project]
+name = "ai-phishing-email-detector"
+version = "0.1.0"
+description = "AI-powered phishing email detector with confidence scoring and detailed analysis reports"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "streamlit>=1.28.0",
+    "openai>=1.0.0",
+    "email-validator>=2.0.0",
+    "dnspython>=2.4.0",
+    "tldextract>=5.0.0",
+    "reportlab>=4.0.0",
+    "python-dateutil>=2.8.0",
+    "pandas>=2.0.0",
+    "plotly>=5.17.0",
+    "requests>=2.31.0",
+    "vt-py>=0.18.0",
+]
