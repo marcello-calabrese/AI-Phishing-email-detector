@@ -8,7 +8,7 @@ using OpenAI's GPT models.
 import json
 import logging
 import re
-from typing import Dict, List, Optional
+from typing import Dict, Optional
 from datetime import datetime
 from pathlib import Path
 import threading
